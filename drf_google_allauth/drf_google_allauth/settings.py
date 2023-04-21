@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-e0sn76x7d(uif2q1s_)*a2im(+2_aayaflfi72osi^gjx-&zm7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -152,7 +152,7 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = [
 ]
 
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '**********'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '**********'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '********'
 AUTH_USER_MODEL = 'auth.User'
 
 
